@@ -47,7 +47,7 @@ public class MainActivity extends AppCompatActivity {
         btnFono.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i = new Intent(Intent.ACTION_CALL, Uri.parse("tel:+56966077777"));
+                Intent i = new Intent(Intent.ACTION_CALL, Uri.parse("tel:+56984639705"));
                 startActivity(i);
             }
         });
